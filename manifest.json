@@ -1,14 +1,14 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 1,
 
-  "name": "Modify CSS and HTML",
+  "name": "Allow search unavailable files",
   "version": "0.1.0",
-  "description": "Lateral blog post demo extension",
+  "description": "replace the unavailable button with a search button",
 
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
-    "matches": ["https://blog.lateral.io/*"]
+    "matches": ["http://www.frankshospitalworkshop.com/equipment/*"]
   }]
 
 }
